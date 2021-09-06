@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity">
+
+        <TextView
+            android:id="@+id/textView400"
+            style="@style/SimpleText.400"
+            android:text="Font Weight 400"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView500"
+            style="@style/SimpleText.500"
+            android:text="Font Weight 500"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/textView400" />
+
+        <TextView
+            android:id="@+id/textView600"
+            style="@style/SimpleText.600"
+            android:text="Font Weight 600"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/textView500" />
+
+        <TextView
+            android:id="@+id/textView800"
+            style="@style/SimpleText.800"
+            android:text="Font Weight 800"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/textView600" />
+
+        <TextView
+            android:id="@+id/textView12"
+            style="@style/SimpleText"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/textView800" />
+
+        <TextView
+            android:id="@+id/textView16"
+            style="@style/SimpleText"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/textView12" />
+
+        <TextView
+            android:id="@+id/textView24"
+            style="@style/SimpleText"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/textView16" />
+
+        <TextView
+            android:id="@+id/textView32"
+            style="@style/SimpleText"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/textView24" />
+
+        <TextView
+            android:id="@+id/textView40"
+            style="@style/SimpleText"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/textView32" />
+
+        <TextView
+            android:id="@+id/textView56"
+            style="@style/SimpleText"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/textView40" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
