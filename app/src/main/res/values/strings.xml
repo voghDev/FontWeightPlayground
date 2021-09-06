@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">FontWeightPlayground</string>
+    <string name="sample_text">This is a sample text with various lines: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </string>
+</resources>
