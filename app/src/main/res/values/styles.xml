@@ -19,23 +19,27 @@
         <item name="android:textFontWeight">400</item>
         <item name="android:fontWeight">400</item>
         <item name="fontWeight">400</item>
+        <item name="android:fontFamily">@font/inter_400</item>
     </style>
 
     <style name="SimpleText.500">
         <item name="android:textFontWeight">500</item>
         <item name="android:fontWeight">500</item>
         <item name="fontWeight">500</item>
+        <item name="android:fontFamily">@font/inter_500</item>
     </style>
 
     <style name="SimpleText.600">
         <item name="android:textFontWeight">600</item>
         <item name="android:fontWeight">600</item>
         <item name="fontWeight">600</item>
+        <item name="android:fontFamily">@font/inter_600</item>
     </style>
 
     <style name="SimpleText.800">
         <item name="android:textFontWeight">800</item>
         <item name="android:fontWeight">800</item>
         <item name="fontWeight">800</item>
+        <item name="android:fontFamily">@font/inter_800</item>
     </style>
 </resources>
